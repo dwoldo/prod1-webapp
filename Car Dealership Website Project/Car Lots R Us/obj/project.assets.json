@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\pod\\Documents\\GitHub\\prod1-webapp\\Car Dealership Website Project\\Car Lots R Us\\Car Lots R Us.csproj",
+      "projectUniqueName": "C:\\Users\\pod\\Documents\\GitHub\\prod1-webapp\\Car Dealership Website Project\\Car Lots R Us\\Car Lots R Us.csproj",
       "projectName": "Car Lots R Us",
-      "projectPath": "D:\\Users\\pod\\Documents\\GitHub\\prod1-webapp\\Car Dealership Website Project\\Car Lots R Us\\Car Lots R Us.csproj",
+      "projectPath": "C:\\Users\\pod\\Documents\\GitHub\\prod1-webapp\\Car Dealership Website Project\\Car Lots R Us\\Car Lots R Us.csproj",
       "packagesPath": "C:\\Users\\pod\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\pod\\Documents\\GitHub\\prod1-webapp\\Car Dealership Website Project\\Car Lots R Us\\obj\\",
+      "outputPath": "C:\\Users\\pod\\Documents\\GitHub\\prod1-webapp\\Car Dealership Website Project\\Car Lots R Us\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pod\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
