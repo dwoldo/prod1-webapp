@@ -7,5 +7,7 @@ namespace Car_Lots_R_Us.Models
 {
     public class Cars
     {
+        public string Id { get; internal set; }
+        public object Ratings { get; internal set; }
     }
 }

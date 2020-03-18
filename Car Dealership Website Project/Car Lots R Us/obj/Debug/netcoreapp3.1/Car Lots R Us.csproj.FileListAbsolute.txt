@@ -33,3 +33,38 @@ D:\Users\pod\source\repos\Car Dealership Website Project\Car Lots R Us\obj\Debug
 D:\Users\pod\source\repos\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.dll
 D:\Users\pod\source\repos\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.pdb
 D:\Users\pod\source\repos\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.csproj.CopyComplete
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\bin\Debug\netcoreapp3.1\Car Lots R Us.exe
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\bin\Debug\netcoreapp3.1\Car Lots R Us.deps.json
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\bin\Debug\netcoreapp3.1\Car Lots R Us.runtimeconfig.json
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\bin\Debug\netcoreapp3.1\Car Lots R Us.runtimeconfig.dev.json
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\bin\Debug\netcoreapp3.1\Car Lots R Us.dll
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\bin\Debug\netcoreapp3.1\Car Lots R Us.pdb
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\bin\Debug\netcoreapp3.1\Car Lots R Us.Views.dll
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\bin\Debug\netcoreapp3.1\Car Lots R Us.Views.pdb
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.csprojAssemblyReference.cache
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\staticwebassets\Car Lots R Us.StaticWebAssets.Manifest.cache
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\staticwebassets\Car Lots R Us.StaticWebAssets.xml
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.RazorAssemblyInfo.cache
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.RazorAssemblyInfo.cs
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.AssemblyInfoInputs.cache
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.AssemblyInfo.cs
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.TagHelpers.input.cache
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.TagHelpers.output.cache
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.RazorCoreGenerate.cache
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.RazorTargetAssemblyInfo.cache
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.RazorTargetAssemblyInfo.cs
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.Views.pdb
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.dll
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.pdb
+C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.csproj.CopyComplete
