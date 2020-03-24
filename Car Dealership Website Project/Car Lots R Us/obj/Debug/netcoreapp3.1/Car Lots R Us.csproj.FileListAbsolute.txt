@@ -68,3 +68,12 @@ C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lo
 C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.dll
 C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.pdb
 C:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.csproj.CopyComplete
+D:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.csprojAssemblyReference.cache
+D:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.csproj.CoreCompileInputs.cache
+D:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.RazorAssemblyInfo.cache
+D:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.RazorAssemblyInfo.cs
+D:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.AssemblyInfoInputs.cache
+D:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.AssemblyInfo.cs
+D:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.dll
+D:\Users\pod\Documents\GitHub\prod1-webapp\Car Dealership Website Project\Car Lots R Us\obj\Debug\netcoreapp3.1\Car Lots R Us.pdb
