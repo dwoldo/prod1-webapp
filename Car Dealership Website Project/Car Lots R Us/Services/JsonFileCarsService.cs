@@ -32,20 +32,20 @@ namespace Car_Lots_R_Us.Services
                     });
             }
         }
-
-        public void AddRating(string productId, int rating)
+        
+        /*public void AddRating(int productId, int rating)
         {
             var products = GetProducts();
 
-            if (products.First(x => x.Id == productId).Ratings == null)
+            if (products.First(x => x.IDNumber == productId).Ratings == null)
             {
                 products.First(x => GetId(x) == productId).Ratings = new int[] { rating };
             }
             else
             {
-                var ratings = products.First(x => x.Id == productId).Ratings.ToList();
+                var ratings = products.First(x => x.IDNumber == productId).Ratings.ToList();
                 ratings.Add(rating);
-                products.First(x => x.Id == productId).Ratings = ratings.ToArray();
+                products.First(x => x.IDNumber == productId).Ratings = ratings.ToArray();
             }
 
             using (var outputStream = File.OpenWrite(JsonFileName))
@@ -59,12 +59,13 @@ namespace Car_Lots_R_Us.Services
                     products
                 );
             }
-        }
+        }*/
 
-        private static string GetId(Car x)
+        private static int GetId(Car x)
         {
-            return x.Id;
+            return x.IDNumber;
         }
     }
 
 }
+

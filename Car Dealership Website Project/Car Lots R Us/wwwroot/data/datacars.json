@@ -9,8 +9,8 @@
     "SellingPrice": 42000,
     "SoldPrice": 0,
     "Color": "White",
-    "Condition": "2",
-    "Status": "Good",
+    "Condition": "Brand New",
+    "InventoryStatus": "Good",
     "IsNew": true
   },
 
@@ -25,7 +25,7 @@
     "SoldPrice": 0,
     "Color": "White",
     "Condition": "2",
-    "Status": "Good",
+    "InventoryStatus": "Good",
     "IsNew": true
   }
 ]
@@ -43,7 +43,7 @@ car4.SellingPrice = 136000000;
 car4.SoldPrice = 12000000;
 car4.Color = "red";
 car4.Condition = "2";
-car4.Status = "3";
+car4.InventoryStatus = "3";
 car4.IsNew = true;
 
 
