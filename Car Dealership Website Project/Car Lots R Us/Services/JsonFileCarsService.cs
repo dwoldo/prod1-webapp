@@ -21,7 +21,7 @@ namespace Car_Lots_R_Us.Services
             get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "Cars.json"); }
         }
 
-        public IEnumerable<Cars> GetProducts()
+        public IEnumerable<Car> GetProducts()
         {
             using (var jsonFileReader = File.OpenText(JsonFileName))
             {
