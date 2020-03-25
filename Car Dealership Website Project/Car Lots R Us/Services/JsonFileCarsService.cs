@@ -21,7 +21,7 @@ namespace Car_Lots_R_Us.Services
             get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "Cars.json"); }
         }
 
-        public IEnumerable<Car> GetProducts()
+        public IEnumerable<Car> GetCars()
         {
             using (var jsonFileReader = File.OpenText(JsonFileName))
             {
@@ -32,7 +32,7 @@ namespace Car_Lots_R_Us.Services
                     });
             }
         }
-        
+
         /*public void AddRating(int productId, int rating)
         {
             var products = GetProducts();
@@ -60,6 +60,29 @@ namespace Car_Lots_R_Us.Services
                 );
             }
         }*/
+        /*
+        public Car GetCar (int id)
+        {
+
+        }
+
+        public IEnumerable<Car> SearchCars(string make, string model)
+        {
+
+        }
+        public void AddCar (Car car)
+        {
+
+        }
+        public void EditCar (Car car)
+        {
+
+        }
+        public void RemoveCar (Car car)
+        {
+
+        }
+        */
 
         private static int GetId(Car x)
         {
