@@ -50,7 +50,7 @@ namespace Car_Lots_R_Us.Services
 
             using (var outputStream = File.OpenWrite(JsonFileName))
             {
-                JsonSerializer.Serialize<IEnumerable<dataCars>>(
+                JsonSerializer.Serialize<IEnumerable<Car>>(
                     new Utf8JsonWriter(outputStream, new JsonWriterOptions
                     {
                         SkipValidation = true,
@@ -61,7 +61,7 @@ namespace Car_Lots_R_Us.Services
             }
         }
 
-        private static string GetId(Cars x)
+        private static string GetId(Car x)
         {
             return x.Id;
         }
