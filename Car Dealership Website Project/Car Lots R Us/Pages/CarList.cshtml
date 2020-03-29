@@ -6,3 +6,7 @@
 
 <h1>CarList</h1>
 
+@foreach (var car in Model.Cars)
+{
+    <h2>@car.Make @car.Model</h2>
+}
