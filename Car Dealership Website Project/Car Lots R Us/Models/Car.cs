@@ -9,6 +9,7 @@
         public int PurchasePrice { get; set; }
         public int Miles { get; set; }
         public int SellingPrice { get; set; }
+        public int SoldPrice { get; set; }
         public string Color { get; set; }
         public string Condition { get; set; }
         public string InventoryStatus { get; set; }
