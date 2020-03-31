@@ -1,16 +1,16 @@
 [
   {
     "IDNumber": 2289,
-    "Make": "Tesla",
-    "Model": "Model 3",
+    "Make": "Ford",
+    "Model": "F-150",
     "Year": 2020,
-    "PurchasePrice": 39990,
+    "PurchasePrice": 36500,
     "Miles": 0,
-    "SellingPrice": 42000,
+    "SellingPrice": 37500,
     "SoldPrice": 0,
-    "Color": "White",
+    "Color": "Dark Blue",
     "Condition": "Brand New",
-    "InventoryStatus": "Good",
+    "InventoryStatus": "In stock",
     "IsNew": true
   },
 
@@ -24,38 +24,38 @@
     "SellingPrice": 42000,
     "SoldPrice": 0,
     "Color": "White",
-    "Condition": "2",
-    "InventoryStatus": "Good",
+    "Condition": "Brand New",
+    "InventoryStatus": "Sold",
     "IsNew": true
+  },
+
+  {
+    "IDNumber": 2291,
+    "Make": "Boeing",
+    "Model": "Atlas V",
+    "Year": 2020,
+    "PurchasePrice": 15000000,
+    "Miles": 478000,
+    "SellingPrice": 136000000,
+    "SoldPrice": 0,
+    "Color": "Red",
+    "Condition": "Average",
+    "InventoryStatus": "On hold",
+    "IsNew": true
+  },
+
+  {
+    "IDNumber": 2292,
+    "Make": "Detroit Arsenal",
+    "Model": "M47 Patton",
+    "Year": 2000,
+    "PurchasePrice": 500000,
+    "Miles": 50000,
+    "SellingPrice": 750000,
+    "SoldPrice": 0,
+    "Color": "Gray",
+    "Condition": "Great",
+    "InventoryStatus": "In Stock",
+    "IsNew": false
   }
 ]
-
-
-/*
-Car car4 = new Car();
-car4.IDNumber = 2290;
-car4.Make = "Rocket";
-car4.Model = "Ship";
-car4.Year = 2020;
-car4.PurchasePrice = 15000000;
-car4.Miles = 478000;
-car4.SellingPrice = 136000000;
-car4.SoldPrice = 12000000;
-car4.Color = "red";
-car4.Condition = "2";
-car4.InventoryStatus = "3";
-car4.IsNew = true;
-
-
-Car car5 = new Car();
-car5.IDNumber = 2291;
-car5.Make = "Big";
-car5.Model = "Tank";
-car5.Year = 2000;
-car5.PurchasePrice = 500000;
-car5.Miles = 50000;
-car5.SellingPrice = 750000;
-car5.SoldPrice = 600000;
-car5.Color = "grey";
-car5.Condition = "1";
-*/
