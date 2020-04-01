@@ -2,16 +2,17 @@
   {
     "IDNumber": 2289,
     "Make": "Tesla",
-    "Model": "Model 3",
-    "Year": 2020,
-    "PurchasePrice": 39990,
-    "Miles": 0,
-    "SellingPrice": 42000,
+    "Model": "Model S",
+    "Year": 2016,
+    "PurchasePrice": 21500,
+    "Miles": 34000,
+    "SellingPrice": 22985,
     "SoldPrice": 0,
-    "Color": "White",
-    "Condition": "Brand New",
-    "InventoryStatus": "Good",
-    "IsNew": true
+    "Color": "Gray",
+    "Condition": "Great",
+    "InventoryStatus": "In stock",
+    "IsNew": true,
+    "ImageURL": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2018-tesla-model-s-100d-1545165580.jpg"
   },
 
   {
@@ -24,38 +25,41 @@
     "SellingPrice": 42000,
     "SoldPrice": 0,
     "Color": "White",
-    "Condition": "2",
-    "InventoryStatus": "Good",
-    "IsNew": true
+    "Condition": "Brand New",
+    "InventoryStatus": "Sold",
+    "IsNew": true,
+    "ImageURL": "https://electrek.co/wp-content/uploads/sites/3/2016/06/tesla-model-3-silver-prototype-promo-shot-headlands.jpg?quality=82&strip=all&w=1600"
+  },
+
+  {
+    "IDNumber": 2291,
+    "Make": "Boeing",
+    "Model": "Atlas V",
+    "Year": 2002,
+    "PurchasePrice": 15000000,
+    "Miles": 478000,
+    "SellingPrice": 136000000,
+    "SoldPrice": 0,
+    "Color": "White",
+    "Condition": "Average",
+    "InventoryStatus": "On hold",
+    "IsNew": true,
+    "ImageURL": "https://www.clickorlando.com/resizer/vxXUYuZQo8dJMN0xRu8Moex2ZjI=/600x347/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/arc-anglerfish-arc2-prod-gmg.s3.amazonaws.com/public/FUW4VLNY5RGCBMF2TBZL2K4BUY.jpg"
+  },
+
+  {
+    "IDNumber": 2292,
+    "Make": "US",
+    "Model": "M47 Patton",
+    "Year": 1951,
+    "PurchasePrice": 500000,
+    "Miles": 50000,
+    "SellingPrice": 750000,
+    "SoldPrice": 0,
+    "Color": "Green",
+    "Condition": "Great",
+    "InventoryStatus": "In Stock",
+    "IsNew": false,
+    "ImageURL": "https://www.fdmuseum.org/wp-content/uploads/2016/12/M47-PATTON-TANK.jpg"
   }
 ]
-
-
-/*
-Car car4 = new Car();
-car4.IDNumber = 2290;
-car4.Make = "Rocket";
-car4.Model = "Ship";
-car4.Year = 2020;
-car4.PurchasePrice = 15000000;
-car4.Miles = 478000;
-car4.SellingPrice = 136000000;
-car4.SoldPrice = 12000000;
-car4.Color = "red";
-car4.Condition = "2";
-car4.InventoryStatus = "3";
-car4.IsNew = true;
-
-
-Car car5 = new Car();
-car5.IDNumber = 2291;
-car5.Make = "Big";
-car5.Model = "Tank";
-car5.Year = 2000;
-car5.PurchasePrice = 500000;
-car5.Miles = 50000;
-car5.SellingPrice = 750000;
-car5.SoldPrice = 600000;
-car5.Color = "grey";
-car5.Condition = "1";
-*/

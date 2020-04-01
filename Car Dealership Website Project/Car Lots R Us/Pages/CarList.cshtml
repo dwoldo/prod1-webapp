@@ -1,0 +1,55 @@
+﻿@page
+@model Car_Lots_R_Us.Pages.CarListModel
+@{
+    ViewData["Title"] = "CarList";
+}
+
+<div class="text-center" style="border: solid">
+    <h1 class="display-4">Car Lots R' Us</h1>
+    </div>
+
+<br/>
+
+<div class="container">
+    @foreach (var car in Model.Cars)
+    {
+    <div class="row">
+        <div class="col d-flex align-items-center justify-content-center border bg-light">
+            <img src="@car.ImageURL" class="img-fluid" />
+        </div>
+        <div class="col-8 .col-sm-9 py-3 px-lg-4 border bg-light">
+            <div class="row mb-2">
+                <div class="col-4 .col-sm-4 .offset-md-3 py-3 px-lg-3 border bg-light">
+                    <b><font size="4">@car.Make @car.Model</font></b>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-4 .col-sm-4 .offset-md-3 py-1 px-lg-2 border bg-light">
+                    ID Number: @car.IDNumber
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-4 .col-sm-4 .offset-md-3 py-1 px-lg-2 border bg-light">
+                    Color: @car.Color
+                </div>
+                <div class="col-4 ml-4 .col-sm-4 .offset-md-3 py-1 px-lg-2 border bg-light">
+                    @car.InventoryStatus
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-4 .col-sm-4 .offset-md-3 py-1 px-lg-2 border bg-light">
+                    Miles: @car.Miles
+                </div>
+                <div class="col-4 ml-4 .col-sm-4 .offset-md-3 py-1 px-lg-2 border bg-light">
+                    @car.Condition
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 .col-sm-4 .offset-md-3 py-1 px-lg-2 border bg-light">
+                    Year: @car.Year
+                </div>
+            </div>
+        </div>
+    </div>
+    }
+</div>
