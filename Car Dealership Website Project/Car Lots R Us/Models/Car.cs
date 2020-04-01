@@ -14,6 +14,6 @@
         public string Condition { get; set; }
         public string InventoryStatus { get; set; }
         public bool IsNew { get; set; }
-
+        public string ImageURL { get; set; }
     }
 }

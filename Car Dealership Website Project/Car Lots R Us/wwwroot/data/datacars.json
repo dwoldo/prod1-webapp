@@ -2,7 +2,7 @@
   {
     "IDNumber": 2289,
     "Make": "Tesla",
-    "Model": "Model 5",
+    "Model": "Model S",
     "Year": 2016,
     "PurchasePrice": 21500,
     "Miles": 34000,
@@ -11,7 +11,8 @@
     "Color": "Gray",
     "Condition": "Great",
     "InventoryStatus": "In stock",
-    "IsNew": true
+    "IsNew": true,
+    "ImageURL": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2018-tesla-model-s-100d-1545165580.jpg"
   },
 
   {
@@ -26,7 +27,8 @@
     "Color": "White",
     "Condition": "Brand New",
     "InventoryStatus": "Sold",
-    "IsNew": true
+    "IsNew": true,
+    "ImageURL": "https://electrek.co/wp-content/uploads/sites/3/2016/06/tesla-model-3-silver-prototype-promo-shot-headlands.jpg?quality=82&strip=all&w=1600"
   },
 
   {
@@ -38,10 +40,11 @@
     "Miles": 478000,
     "SellingPrice": 136000000,
     "SoldPrice": 0,
-    "Color": "Red",
+    "Color": "White",
     "Condition": "Average",
     "InventoryStatus": "On hold",
-    "IsNew": true
+    "IsNew": true,
+    "ImageURL": "https://www.clickorlando.com/resizer/vxXUYuZQo8dJMN0xRu8Moex2ZjI=/600x347/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/arc-anglerfish-arc2-prod-gmg.s3.amazonaws.com/public/FUW4VLNY5RGCBMF2TBZL2K4BUY.jpg"
   },
 
   {
@@ -53,9 +56,10 @@
     "Miles": 50000,
     "SellingPrice": 750000,
     "SoldPrice": 0,
-    "Color": "Gray",
+    "Color": "Green",
     "Condition": "Great",
     "InventoryStatus": "In Stock",
-    "IsNew": false
+    "IsNew": false,
+    "ImageURL": "https://www.fdmuseum.org/wp-content/uploads/2016/12/M47-PATTON-TANK.jpg"
   }
 ]
