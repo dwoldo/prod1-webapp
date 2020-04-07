@@ -9,8 +9,6 @@ namespace Car_Lots_R_Us.Services
 {
     public class JsonFileProductService
     {
-        
-
         public JsonFileProductService(IWebHostEnvironment webHostEnvironment)
         {
             WebHostEnvironment = webHostEnvironment;
@@ -67,7 +65,6 @@ namespace Car_Lots_R_Us.Services
         {
             Car[] allcars = (Car[])GetCars();
             return allcars.Where(car => car.IDNumber == id).FirstOrDefault();
-
         }
 
         public IEnumerable<Car> SearchCars(string make, string model)
@@ -75,14 +72,14 @@ namespace Car_Lots_R_Us.Services
             Car[] allcars = (Car[])GetCars();
             return allcars.Where(car => car.Make == make && car.Model == model);
         }
-      public void AddCar (Car car)
+
+        public void AddCar (Car car)
         {
             List<Car> allcars = (List<Car>)GetCars();
             allcars.Add(car);
             SaveCars(allcars);
-
-
         }
+
         public void SaveCars(List<Car> cars)
         {
             using (var outputStream = File.OpenWrite(JsonFileName))
@@ -97,28 +94,28 @@ namespace Car_Lots_R_Us.Services
                 );
             }
         }
-          public void EditCar (Car editCar)
+
+        public void EditCar (Car editCar)
         {
             List<Car> allcars = (List<Car>)GetCars();
            int index = allcars.FindIndex(car => car.IDNumber == editCar.IDNumber);
             allcars[index] = editCar;
             SaveCars(allcars);
-
         }
-       public void RemoveCar (int IDNumber)
-         {
+
+        public void RemoveCar (int IDNumber)
+        {
             List<Car> allcars = (List<Car>)GetCars();
             int index = allcars.FindIndex(car => car.IDNumber == IDNumber);
             allcars.RemoveAt(index);
             SaveCars(allcars);
-
         }
-        /* 
 
-                private static int GetId(Car x)
-                {
-                    return x.IDNumber;
-                }*/
+        /*
+        private static int GetId(Car x)
+        {
+            return x.IDNumber;
+        }*/
     }
     
 }
