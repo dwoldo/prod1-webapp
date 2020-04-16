@@ -1,0 +1,61 @@
+﻿@page
+@model Car_Lots_R_Us.Pages.AddCarModel
+@{
+    ViewData["Title"] = "AddCar";
+}
+
+<div class="text-center" style="border: solid">
+    <h1 class="display-4">Car Lots R' Us</h1>
+</div>
+
+<br />
+
+<div>
+    <h2>Add Car</h2>
+</div>
+<form action="/action_page.php">
+    <label for="IDN">ID Number:</label><br>
+    <input type="text" id="IDN" name="fname"><br>
+    <label for="Make">Make:</label><br>
+    <input type="text" id="Make" name="Make"><br>
+    <label for="Model">Model:</label><br>
+    <input type="text" id="Model" name="Model"><br>
+    <label for="Year">Year:</label><br>
+    <input type="text" id="Year" name="Year"><br>
+    <label for="PurchaseP">Purchase Price:</label><br>
+    <input type="text" id="PurchaseP" name="PurchaseP"><br>
+    <label for="Miles">Miles:</label><br>
+    <input type="text" id="Miles" name="Miles"><br>
+    <label for="SellingP">Selling Price:</label><br>
+    <input type="text" id="SellingP" name="SellingP"><br>
+    <label for="SoldP">Sold Price:</label><br>
+    <input type="text" id="SoldP" name="SoldP"><br>
+    <label for="Color">Color:</label><br>
+    <input type="text" id="Color" name="Color"><br>
+    <label for="Condition">Condition:</label><br>
+    <input type="radio" id="Great" name="Condition" value="Great">
+    <label for="Great">Great</label><br>
+    <input type="radio" id="Good" name="Condition" value="Good">
+    <label for="Good">Good</label><br>
+    <input type="radio" id="Average" name="Condition" value="Average">
+    <label for="Average">Average</label><br>
+    <input type="radio" id="Terrible" name="Condition" value="Terrible">
+    <label for="Terrible">Terrible</label><br>
+    <input type="radio" id="Destroyed" name="Condition" value="Destroyed">
+    <label for="Destroyed">Destroyed</label><br>
+    <label for="InventoryS">Inventory Status:</label><br>
+    <input type="radio" id="InS" name="InventoryS" value="InS">
+    <label for="InS">In Stock</label><br>
+    <input type="radio" id="OnH" name="InventoryS" value="OnH">
+    <label for="OnH">On hold</label><br>
+    <input type="radio" id="Sold" name="InventoryS" value="Sold">
+    <label for="Sold">Sold</label><br>
+    <label for="NoU">New or Used:</label><br>
+    <input type="radio" id="New" name="NoU" value="New">
+    <label for="New">New</label><br>
+    <input type="radio" id="Used" name="NoU" value="Used">
+    <label for="Used">Used</label><br>
+    <label for="Image">Image URL:</label><br>
+    <input type="text" id="Image" name="Image"><br><br>
+    <input type="submit" value="Submit">
+</form>

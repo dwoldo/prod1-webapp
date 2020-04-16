@@ -6,8 +6,8 @@
 
 <div class="text-center" style="border: solid">
     <h1 class="display-4">Car Lots R' Us</h1>
-    </div>
-<div class="container">
+</div>
+<!--<div class="container">
     <div class="row">
         <div class="col py-1 px-lg-4 border bg-light">
             <b>List of Cars</b>
@@ -19,72 +19,78 @@
             <b>Buy Car</b>
         </div>
         <div class="col py-1 px-lg-3 border bg-light">
-            Search type <!--Place holder for now-->
+            Search type <!--Place holder for now
         </div>
-        <div class="col py-1 px-lg-3 border bg-light">
-            Search bar <!--Place holder for now-->
-        </div>
-    </div>
+<div class="col py-1 px-lg-3 border bg-light">
+    Search bar <!--Place holder for now
 </div>
-<br/>
+    </div>
+</div>-->
+<br />
 
 <div class="container">
     @foreach (var car in Model.Cars)
     {
-    <div class="row">
-        <div class="col d-flex align-items-center justify-content-center border bg-light">
-            <img src="@car.ImageURL" class="img-fluid" />
+        <div class="row">
+            <div class="col d-flex align-items-center justify-content-center border bg-light">
+                <img src="@car.ImageURL" class="img-fluid" />
+            </div>
+            <div class="col-8 py-3 px-lg-4 border bg-light">
+                <div class="row mb-2">
+                    <div class="col-4 py-3 px-lg-3 border bg-light">
+                        <b><font size="4">@car.Make @car.Model</font></b>
+                    </div>
+                    <div class="col-md-4 offset-md-4 py-3 p-lg-3 border bg-light">
+                        $@car.SellingPrice
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- mb-2 -->
+                    <div class="col-4 mb-2 py-1 px-lg-2 border bg-light">
+                        ID Number: @car.IDNumber
+                    </div>
+                    <div class="col-md-4 offset-md-4 py-2 px-lg-3 border bg-light">
+                        <!-- py-1 -->
+                        More Details
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- mb-2 -->
+                    <div class="col-4 mb-2 py-1 px-lg-2 border bg-light">
+                        Color: @car.Color
+                    </div>
+                    <div class="col-3 mb-2 ml-5 py-1 px-lg-2 border bg-light">
+                        @car.InventoryStatus
+                    </div>
+                    <div class="col-md-4 ml-auto py-2 px-lg-3 border bg-light">
+                        <!-- py-1 -->
+                        <a asp-page="/EditCar/@car.IDNumber">Edit Info</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- mb-2 -->
+                    <div class="col-4 mb-2 py-1 px-lg-2 border bg-light">
+                        Miles: @car.Miles
+                    </div>
+                    <div class="col-3 mb-2 ml-5 py-1 px-lg-2 border bg-light">
+                        @car.Condition
+                    </div>
+                    <div class="col-md-4 ml-auto py-2 px-lg-3 border bg-light">
+                        <!-- py-1 -->
+                        Buy
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 py-1 px-lg-2 border bg-light">
+                        Year: @car.Year
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-auto ml-auto px-lg-2 border bg-light">
+                        Remove
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-8 py-3 px-lg-4 border bg-light">
-            <div class="row mb-2">
-                <div class="col-4 py-3 px-lg-3 border bg-light">
-                    <b><font size="4">@car.Make @car.Model</font></b>
-                </div>
-                <div class="col-md-4 offset-md-4 py-3 p-lg-3 border bg-light">
-                    $@car.SellingPrice
-                </div>
-            </div>
-            <div class="row"> <!-- mb-2 -->
-                <div class="col-4 mb-2 py-1 px-lg-2 border bg-light">
-                    ID Number: @car.IDNumber
-                </div>
-                <div class="col-md-4 offset-md-4 py-2 px-lg-3 border bg-light"> <!-- py-1 -->
-                    More Details
-                </div>
-            </div>
-            <div class="row"> <!-- mb-2 -->
-                <div class="col-4 mb-2 py-1 px-lg-2 border bg-light">
-                    Color: @car.Color
-                </div>
-                <div class="col-3 mb-2 ml-5 py-1 px-lg-2 border bg-light">
-                    @car.InventoryStatus
-                </div>
-                <div class="col-md-4 ml-auto py-2 px-lg-3 border bg-light"> <!-- py-1 -->
-                    Edit Car's info
-                </div>
-            </div>
-            <div class="row"> <!-- mb-2 -->
-                <div class="col-4 mb-2 py-1 px-lg-2 border bg-light">
-                    Miles: @car.Miles
-                </div>
-                <div class="col-3 mb-2 ml-5 py-1 px-lg-2 border bg-light">
-                    @car.Condition
-                </div>
-                <div class="col-md-4 ml-auto py-2 px-lg-3 border bg-light"> <!-- py-1 -->
-                    Buy
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4 py-1 px-lg-2 border bg-light">
-                    Year: @car.Year
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-auto ml-auto px-lg-2 border bg-light">
-                    Remove
-                </div>
-            </div>
-        </div>
-    </div>
     }
 </div>
