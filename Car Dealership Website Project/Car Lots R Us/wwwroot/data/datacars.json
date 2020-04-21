@@ -14,7 +14,6 @@
     "IsNew": true,
     "ImageURL": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2018-tesla-model-s-100d-1545165580.jpg"
   },
-
   {
     "IDNumber": 2290,
     "Make": "Tesla",
@@ -28,9 +27,8 @@
     "Condition": "Brand New",
     "InventoryStatus": "Sold",
     "IsNew": true,
-    "ImageURL": "https://electrek.co/wp-content/uploads/sites/3/2016/06/tesla-model-3-silver-prototype-promo-shot-headlands.jpg?quality=82&strip=all&w=1600"
+    "ImageURL": "https://electrek.co/wp-content/uploads/sites/3/2016/06/tesla-model-3-silver-prototype-promo-shot-headlands.jpg?quality=82\u0026strip=all\u0026w=1600"
   },
-
   {
     "IDNumber": 2291,
     "Make": "Boeing",
@@ -46,7 +44,6 @@
     "IsNew": true,
     "ImageURL": "https://www.clickorlando.com/resizer/vxXUYuZQo8dJMN0xRu8Moex2ZjI=/600x347/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/arc-anglerfish-arc2-prod-gmg.s3.amazonaws.com/public/FUW4VLNY5RGCBMF2TBZL2K4BUY.jpg"
   },
-
   {
     "IDNumber": 2292,
     "Make": "US",
@@ -61,5 +58,50 @@
     "InventoryStatus": "In Stock",
     "IsNew": false,
     "ImageURL": "https://www.fdmuseum.org/wp-content/uploads/2016/12/M47-PATTON-TANK.jpg"
+  },
+  {
+    "IDNumber": 2293,
+    "Make": "Ford",
+    "Model": "E200 Econoline",
+    "Year": 1972,
+    "PurchasePrice": 7500,
+    "Miles": 50000,
+    "SellingPrice": 10000,
+    "SoldPrice": 9500,
+    "Color": "Green",
+    "Condition": "Average",
+    "InventoryStatus": "In Stock",
+    "IsNew": false,
+    "ImageURL": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AABHi4V.img?h=630\u0026w=1200\u0026m=6\u0026q=60\u0026o=t\u0026l=f\u0026f=jpg\u0026x=787\u0026y=534"
+  },
+  {
+    "IDNumber": 2294,
+    "Make": "Lamborghini",
+    "Model": "Aventador",
+    "Year": 2019,
+    "PurchasePrice": 2500000,
+    "Miles": 0,
+    "SellingPrice": 3000000,
+    "SoldPrice": 0,
+    "Color": "Green",
+    "Condition": "Great",
+    "InventoryStatus": "In Stock",
+    "IsNew": true,
+    "ImageURL": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpictures.topspeed.com%2FIMG%2Fjpg%2F201808%2F2019-lamborghini-aventado-12.jpg\u0026f=1\u0026nofb=1"
+  },
+  {
+    "IDNumber": 2295,
+    "Make": "Actual",
+    "Model": "Scam",
+    "Year": 2020,
+    "PurchasePrice": 1000,
+    "Miles": 15000,
+    "SellingPrice": 9999999999,
+    "SoldPrice": 0,
+    "Color": "Light blue",
+    "Condition": "Destroyed",
+    "InventoryStatus": "In Stock",
+    "IsNew": false,
+    "ImageURL": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs1.cdn.autoevolution.com%2Fimages%2Fnews%2F31-cars-worth-225000-get-destroyed-by-teen-punks-at-auto-shop-94297_1.jpg\u0026f=1\u0026nofb=1"
   }
 ]

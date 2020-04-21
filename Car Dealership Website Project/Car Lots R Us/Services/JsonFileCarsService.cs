@@ -25,7 +25,7 @@ namespace Car_Lots_R_Us.Services
         {
             using (var jsonFileReader = File.OpenText(JsonFileName))
             {
-                return JsonSerializer.Deserialize<Car[]>(jsonFileReader.ReadToEnd(),
+                return JsonSerializer.Deserialize<List<Car>>(jsonFileReader.ReadToEnd(),
                     new JsonSerializerOptions
                     {
                         PropertyNameCaseInsensitive = true
