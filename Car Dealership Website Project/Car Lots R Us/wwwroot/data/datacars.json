@@ -96,12 +96,42 @@
     "Year": 2020,
     "PurchasePrice": 1000,
     "Miles": 15000,
-    "SellingPrice": 9999999999,
+    "SellingPrice": 9999999,
     "SoldPrice": 0,
     "Color": "Light blue",
     "Condition": "Destroyed",
     "InventoryStatus": "In Stock",
     "IsNew": false,
     "ImageURL": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs1.cdn.autoevolution.com%2Fimages%2Fnews%2F31-cars-worth-225000-get-destroyed-by-teen-punks-at-auto-shop-94297_1.jpg\u0026f=1\u0026nofb=1"
+  },
+  {
+    "IDNumber": 586,
+    "Make": "Honda",
+    "Model": "Civic",
+    "Year": 2020,
+    "PurchasePrice": 465,
+    "Miles": 54,
+    "SellingPrice": 684,
+    "SoldPrice": 846,
+    "Color": "Black",
+    "Condition": "Great",
+    "InventoryStatus": "Sold",
+    "IsNew": true,
+    "ImageURL": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-honda-civic-mmp-1-1570632265.jpg?crop=0.742xw:0.834xh;0.200xw,0.166xh\u0026resize=640:*"
+  },
+  {
+    "IDNumber": 8946,
+    "Make": "Toyota",
+    "Model": "Cameri",
+    "Year": 2020,
+    "PurchasePrice": 25000,
+    "Miles": 0,
+    "SellingPrice": 30000,
+    "SoldPrice": 27500,
+    "Color": "White",
+    "Condition": "Good",
+    "InventoryStatus": "In Stock",
+    "IsNew": true,
+    "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg/1200px-2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg"
   }
 ]
